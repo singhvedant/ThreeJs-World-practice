@@ -32,11 +32,7 @@ export function Jacob(props) {
           material={materials.Wolf3D_Glasses}
           skeleton={nodes.Wolf3D_Glasses.skeleton}
         />
-        <skinnedMesh
-          geometry={nodes.Wolf3D_Facewear.geometry}
-          material={materials.Wolf3D_Facewear}
-          skeleton={nodes.Wolf3D_Facewear.skeleton}
-        />
+        
         <skinnedMesh
           name="EyeLeft"
           geometry={nodes.EyeLeft.geometry}
